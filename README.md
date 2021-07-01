@@ -1,4 +1,4 @@
-# 历史和现状：
+# Flutter历史和现状：
 2014.10 Flutter的前身Sky在Github上开源
 
 2015.10 经过一年的开源，Sky正式改名为Flutter。在Dart开发者峰会上发布了第一个版本。
