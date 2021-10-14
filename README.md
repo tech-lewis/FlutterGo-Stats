@@ -29,3 +29,5 @@
 支持游戏控制器
 
 # Attributor-Stats iOS
+
+- 2019年6月22日第一个项目-韩国运动服iOS App客户端
