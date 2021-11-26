@@ -76,3 +76,23 @@
 
   
 
+- The Hour of Code 2014
+
+  December 4, 2014We’re supporting the next generation of innovative developers by hosting workshops and other special events during Computer Science Education week, December 8–14. And on December 11, we’ll host the Hour of Code, a free one-hour introduction to the basics of computer programming from Code.org, at your local Apple Store. [Learn more](https://web.archive.org/web/20141207010226/http://www.apple.com/retail/code/).
+
+- ![iAd Workbench](https://web.archive.org/web/20141207010226im_/https://devimages.apple.com.edgekey.net/assets/elements/icons/128x128/iad.png)
+
+  Automate Your Advertising with iAd
+
+  November 21, 2014Leverage the updated iAd Workbench API to automatically create and update ad campaigns, retrieve analytics and manage bids directly on iAd Workbench. You can now promote products in [more than 100 countries](https://web.archive.org/web/20141207010226/http://support.apple.com/en-us/HT203102) across the Americas, Europe, Asia, the Middle East, Africa, and Australia. [Learn about the iAd Workbench API](https://web.archive.org/web/20141207010226/https://developer.apple.com/iad/workbench-api/).
+
+- OS X Server 4.0.2 Developer Preview (14S347) Now Available
+
+  November 20, 2014
+
+- ![iAd Workbench](https://web.archive.org/web/20141207010226im_/https://devimages.apple.com.edgekey.net/assets/elements/icons/128x128/watchkit.png)
+
+  Get Ready for Apple Watch
+
+  November 18, 2014Now you can start creating experiences for Apple Watch that reimagine, extend, and enhance the functionality of your iPhone apps. Learn how your existing app notifications can easily show up on Apple Watch, and how to leverage WatchKit to take your apps even further with WatchKit apps, Glances, and actionable notifications. [Learn more about WatchKit](https://web.archive.org/web/20141207010226/https://developer.apple.com/watchkit/).
+
