@@ -9,6 +9,59 @@
 
 2018.06 在(GMTC)发布首个预览版
 
+Version 0.8变更
+
+```
+* Change assert_bundle_package_font_test to memory file system
+
+This is to work towards being able to run the tests without `-j1` (#21113). These tests were using the real filesystem and setting/relying on fs.currentDirectory. There was a comment about this being because the memory provider didnt' support POSIX and Windows, however that seems to have changed since (and many other asset tests already do something similar to this).
+
+* Trim trailing whitespace
+
+* Add a workaround for Windows path slash directions
+
+Strictly this is correct, but the real FS can tolerate either path. The in-memory file system is more strict (see https://github.com/google/file.dart/issues/112).
+
+* Extract a helper for writing schema files in tests
+
+* Missed file when saving!
+
+* Remove redundant comment
+
+* Rename writeBasicSchema -> writeEmptySchema
+
+* Use the file we already have to write contents
+
+* Make comments more descriptive
+
+* Remove another dupe of writeSchema to use the shared one
+
+* Rename schema -> pubspec_schema
+
+* Trim whitespace
+
+```
+
+```
+*更改内存文件系统 Memory files system
+
+这是为了能够在没有`-j1`（#21113）的情况下运行测试。这些测试使用的是真实的文件系统，并设置/依赖于fs。当前目录。有人评论说，这是因为内存提供程序不支持POSIX和Windows，但这似乎已经改变了（许多其他资产测试已经做了类似的事情）。
+*修剪尾随空格
+*为Windows路径斜线方向添加变通方法
+严格来说，这是正确的，但真正的FS可以容忍任何一种路径。内存中的文件系统更严格（请参阅https://github.com/google/file.dart/issues/112).
+*提取用于在测试中写入架构文件的帮助程序
+*保存时丢失文件！
+*删除多余的注释
+*重命名writeBasicSchema->writeEmptySchema
+*使用我们已经写入内容的文件
+*使评论更具描述性
+*删除另一个writeSchema副本以使用共享副本
+*重命名模式->pubspec_模式
+*去空格
+```
+
+
+
 2018.12 在Flutter Live2018上发布1.0稳定版。
 变更：
 全新iOS风格的widget
