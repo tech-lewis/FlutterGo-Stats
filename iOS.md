@@ -7,12 +7,10 @@ id objc_getAssociatedObject(id object, const void*key);
 void objc_removeAssociatedObjects(id object);
 ```
 
-###### 三个方法的作用分别是：
-
+- 三个方法的作用分别是：
 - 以键值对形式添加关联对象
 - 根据 key 获取关联对象
 - 移除所有关联对象
-
 使用场景：下面AFN的一个例子
 
 **注意：对于key的写法有很多种参考下面链接，个人比较喜欢上述的写法**
@@ -22,4 +20,6 @@ void objc_removeAssociatedObjects(id object);
   return (AFImageDownloadReceipt *)objc_getAssociatedObject(self, @selector(af_activeImageDownloadReceipt));
 }
 ```
+
+## da21: iOS 从Xcode 4开始学
 
